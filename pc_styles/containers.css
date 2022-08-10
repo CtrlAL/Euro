@@ -1,0 +1,108 @@
+@media screen and (min-width: 321px) {
+
+    .test-cont {
+        width: 1392px;
+        margin: 0px auto;
+    }
+
+    .test-cont-1 {
+        width: 1920px;
+        margin: 0px auto;
+    }
+
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .absolute-container {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .test-cont-1 {
+        width: 100%;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+}
+
+.width-174px {
+    width: 174px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+.j-c-center {
+    justify-content: center;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.f-start {
+    justify-content: flex-start;
+}
+
+.al-it-center {
+    align-items: center;
+}
+
+/*Usefull for gradient*/
+.common-container {
+    position: relative;
+}
+
+
+
+/*Usefull for gradient*/
+
+/*No modificate*/
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.center-property {
+    align-items: center;
+}
+
+/*No modificate*/
+

@@ -1,0 +1,208 @@
+/*-------------font-fammily--------------*/
+.main-font-family {
+    font-family: 'Tahoma';
+}
+
+button {
+    font-family: 'Tahoma';
+}
+
+@media (min-width: 321px) {
+
+    .picture-annotaiton {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    /*--------------font-size---------------*/
+    .font-for-white-rec {
+        font-size: 22px;
+    }
+
+    /*-------------font-weight--------------*/
+
+    .equipment-mood-font {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+
+    .big-title-700 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .font-w-700 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .font-w-500 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .font-w-600 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .font-w-400 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*-----------beginers-colors-------------*/
+    .anather-gray-font {
+        color: #666F78;
+    }
+
+    .black-font {
+        color: #000000;
+    }
+
+    .gray-font {
+        color: #333333;
+    }
+
+    .white-font-1 {
+        color: #FFFFFF;
+    }
+
+    .orange-font {
+        color: #BF5002
+    }
+
+    /*---------------trash------------------*/
+    .bleck-font {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .bleck-font-400 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+
+    .white-font {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 8px;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .picture-annotaiton {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /*--------------font-size---------------*/
+    .font-for-white-rec {
+        font-size: 18px;
+    }
+
+    /*-------------font-weight--------------*/
+
+    .equipment-mood-font {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .big-title-700 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .font-w-700 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .font-w-500 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .font-w-600 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .font-w-400 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /*-----------beginers-colors-------------*/
+    .anather-gray-font {
+        color: #666F78;
+    }
+
+    .black-font {
+        color: #000000;
+    }
+
+    .gray-font {
+        color: #333333;
+    }
+
+    .white-font-1 {
+        color: #FFFFFF;
+    }
+
+    .orange-font {
+        color: #BF5002
+    }
+
+    /*---------------trash------------------*/
+    .bleck-font {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .bleck-font-400 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .white-font {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 7px;
+        line-height: 5px;
+        color: #FFFFFF;
+    }
+}
