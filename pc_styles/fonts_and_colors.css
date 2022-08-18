@@ -1,10 +1,10 @@
 /*-------------font-fammily--------------*/
 .main-font-family {
-    font-family: 'Tahoma';
+    font-family: 'Gilroy';
 }
 
 button {
-    font-family: 'Tahoma';
+    font-family: 'Gilroy';
 }
 
 @media (min-width: 321px) {
