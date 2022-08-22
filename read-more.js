@@ -2,16 +2,19 @@ class ReadMore {
     _element;
     _status;
     reviewTextElement;
+    default_height = `${0}px`;
 
     _statusListName = [
         'hidden',
         'active'
     ];
-    constructor(element, status, reviewTextElement) { // Put on constructor DOM element and status!
+    constructor(element, status, reviewTextElement, gradElement) { // Put on constructor DOM element and status!
         // if (status !== 'hidden' || status !== 'active') return new Error(`Status unset`);
         this.element = element;
         this.status = status;
         this.reviewTextElement = reviewTextElement;
+        this.default_height = `${this.reviewTextElement.offsetHeight}px`;
+        this.gradElement = gradElement;
     }
 
     set element(value){
@@ -35,10 +38,12 @@ class ReadMore {
             case 'hidden':
                 this.status = this._statusListName[1];
                 this.reviewTextElement.style.height = `${this.reviewTextElement.scrollHeight}px`;
+                this.gradElement.style.display = 'none';
                 break;
             case 'active':
                 this.status = this._statusListName[0];
-                this.reviewTextElement.style.height = 192 + `px`;
+                this.gradElement.style.display = 'block';
+                this.reviewTextElement.style.height = this.default_height;
                 break;
         }
     }
@@ -51,19 +56,21 @@ class ReadMore {
         if (this._isOverflowed()){
             this.reviewTextElement.style.overflow = 'hidden';
             this.element.style.display = 'block';
+            this.gradElement.style.display = 'block';
         }
     }
 
 }
 
 const reviewTextAll = document.querySelectorAll('.review-text');
+const readGrad = document.querySelectorAll('.linear-grad-2');
 const readMoreAll = document.querySelectorAll('.read-more');
 
 let arrInstances = [];
 
 readMoreAll.forEach((element, index) => {
     arrInstances.push(
-        new ReadMore(element, 'hidden', reviewTextAll[index])
+        new ReadMore(element, 'hidden', reviewTextAll[index], readGrad[index])
     );
 })
 

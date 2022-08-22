@@ -829,6 +829,18 @@
         padding-bottom: 30px;
     }
 
+    .linear-grad-2 {
+        margin-top: 40px;
+        position: absolute;
+        display: none;
+        height: 264px;
+        background: linear-gradient(#FFFFFF 23%, rgba(255, 255, 255, 0) 100%);
+        z-index: 9;
+        top: 0;
+        width: 100%;
+        transform: rotate(180deg);
+    }
+
     .wraaper-2>input {
         display: none;
     }
@@ -854,6 +866,9 @@
 
     .review-text {
         height: 264px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .review-box:last-child() {
@@ -1008,7 +1023,7 @@
     }
 
     /*---------------------------------------------------------png-map-block----------------------------------------------------------------------*/
-    .path-svg-block{
+    .path-svg-block {
         position: relative;
         top: -184px;
         left: 9.25%;
@@ -1022,19 +1037,19 @@
         z-index: 0;
     }
 
-    .path-svg-block .eclipse-pos-1{
-        position: relative;   
+    .path-svg-block .eclipse-pos-1 {
+        position: relative;
         z-index: 1;
     }
 
-    .path-svg-block .eclipse-pos-2{
+    .path-svg-block .eclipse-pos-2 {
         position: relative;
         left: 260px;
         top: -38px;
         z-index: 1;
     }
 
-    .zoom-map{
+    .zoom-map {
         display: none;
     }
 
@@ -1133,12 +1148,12 @@
         justify-content: flex-start;
     }
 
-    .footer-icon-wrap svg path:hover{
-        fill:#BF5002;
+    .footer-icon-wrap svg path:hover {
+        fill: #BF5002;
     }
 
-    .footer-icon-wrap svg{
-        fill:#BF5002;
+    .footer-icon-wrap svg {
+        fill: #BF5002;
     }
 
     .email-input-wrap .email-input-box {

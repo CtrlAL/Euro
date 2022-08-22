@@ -799,6 +799,23 @@
 
     .review-text {
         height: 192px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+
+    .linear-grad-2 {
+        margin-top: 40px;
+        position: absolute;
+        display: none;
+        height: 192px;
+        background: linear-gradient(#FFFFFF 23%, rgba(255, 255, 255, 0) 100%);
+        z-index: 9;
+        top: 0;
+        width: 100%;
+        transform: rotate(180deg);
     }
 
     .review-box:last-child() {
@@ -862,7 +879,6 @@
         display: flex;
         align-items: center;
         overflow: hidden;
-        height: 344px;
     }
 
     .wraaper-2>input {
@@ -976,6 +992,10 @@
         margin-top: 17px;
     }
 
+    .footer-menu-margin:hover {
+        text-decoration: underline;
+    }
+
     .flex-dir-row {
         flex-direction: row;
     }
@@ -999,6 +1019,13 @@
         margin-left: 0;
     }
 
+    .footer-icon-wrap svg path:hover {
+        fill: #BF5002;
+    }
+
+    .footer-icon-wrap svg {
+        fill: #BF5002;
+    }
 
     .valadai-wrap {
         display: flex;
@@ -1081,11 +1108,11 @@
         margin-top: 30px;
     }
 
-    .gps-box-wrap .gps-box .gps-cord div{
+    .gps-box-wrap .gps-box .gps-cord div {
         margin-left: 12px;
     }
 
-    .gps-box-wrap .gps-box .gps-cord div:first-child{
+    .gps-box-wrap .gps-box .gps-cord div:first-child {
         margin-left: 0;
     }
 
