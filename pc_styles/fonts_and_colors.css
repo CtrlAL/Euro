@@ -17,7 +17,10 @@ button {
 
     /*--------------font-size---------------*/
     .font-for-white-rec {
+        font-style: normal;
+        font-weight: 800;
         font-size: 22px;
+        line-height: 36px;
     }
 
     /*-------------font-weight--------------*/

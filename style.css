@@ -46,6 +46,20 @@
         left: 927px;
     }
 
+    .top-left-side-menu{
+        padding-top: 4px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top-left-side-menu .top-left-side-menu-item{
+        margin-left: 36px;
+    }
+
+    .top-left-side-menu .top-left-side-menu-item:first-child{
+        margin-left: 0px;
+    }
+
     .udobstva-font {
         font-weight: 600;
         font-size: 14px;
@@ -206,15 +220,13 @@
     }
 
     .phone-number {
-        padding: 4px 8px;
-        justify-content: center;
         color: #3E4449;
         font-family: 'Tahoma';
         font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
+        font-weight: 600;
+        font-size: 17px;
         line-height: 24px;
-        align-items: center;
+        margin-top: 5px;
     }
 
     .phone-number:link {
@@ -332,6 +344,7 @@
 
     .map-date-cont {
         width: 465px;
+        margin-top: 33px;
     }
 
     .users-item {
@@ -436,11 +449,19 @@
         line-height: 24px;
     }
 
-    .popular-accommodation-item .pic-legend,
+    .popular-accommodation-item .pic-legend {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
     .map-box-side-menu-item .pic-legend {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+        width: 375px;
+        margin-top: 14px;
+        margin-left: 1px;
     }
 
     .popular-accommodation-wrap .popular-accommodation-item .p-a-besides {
@@ -452,6 +473,8 @@
     }
 
     .rect-wrap {
+        width: 1392px;
+        margin: 48px auto 0 auto;
         display: flex;
         justify-content: space-between;
         font-weight: 800;
@@ -464,6 +487,8 @@
         width: 330px;
         height: 136px;
         color: #FBF3ED;
+        background: #FBF3ED;
+        ;
         margin-right: 24px;
     }
 
@@ -479,7 +504,7 @@
 
     .map-block {
         width: 1392px;
-        margin: 96px auto 0 auto;
+        margin: 94px auto 0 auto;
         display: flex;
         align-items: center;
     }
@@ -505,7 +530,7 @@
         width: 43px;
         height: 43px;
         margin-top: 10px;
-        margin-left: 477px;
+        margin-left: 475px;
         border-radius: 50%;
         background: rgba(132, 20, 171, 0.1);
         border: 2px solid #BF5002;
@@ -525,7 +550,7 @@
         position: absolute;
         width: 159px;
         height: 56px;
-        top: 128px;
+        top: 115px;
         left: 47px;
         background: #BF5002;
         border-radius: 10px;
@@ -536,6 +561,7 @@
     }
 
     .side-menu-wrap {
+        padding-top: 50px;
         position: relative;
         z-index: 1;
         margin-left: -470px;
@@ -547,22 +573,22 @@
 
     .map-box-side-menu {
         position: absolute;
-        height: 704px;
+        height: 654px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .map-box-side-menu-item {
         width: 465px;
         box-sizing: border-box;
-        padding-left: 48px;
+        padding-left: 52px;
+        margin-top: 31px;
     }
 
     .side-menu-pic-box {
         width: unset;
         box-sizing: border-box;
-        padding-left: 48px;
+        padding-left: 52px;
     }
 
     .side-menu-radio {
@@ -576,7 +602,7 @@
 
     .review-block-cont {
         width: 1392px;
-        margin: 96px auto 0px auto;
+        margin: 48px auto 0px auto;
         position: relative;
     }
 
@@ -584,7 +610,7 @@
         background-color: white;
         border-top: #E6E6E6 1px solid;
         height: 80px;
-        padding-left: 48px;
+        padding-left: 52px;
     }
 
     .map-item-text-cont {
@@ -595,7 +621,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 83px;
+        margin-left: 75px;
         margin-top: 15px;
         background-color: #BF5002;
         border-radius: 10px;
@@ -617,10 +643,10 @@
     }
 
     .wrapper {
-        margin-top: 96px;
+        margin-top: 160px;
         position: relative;
         overflow: hidden;
-        height: 784px;
+        height: 765px;
     }
 
     .slider {
@@ -692,7 +718,6 @@
 
     .wrapper .controls {
         margin-top: 656px;
-        margin-left: -98px;
         position: relative;
     }
 
@@ -862,6 +887,10 @@
         margin-left: 70px;
     }
 
+    .review-company-item:first-child {
+        margin-left: 0px;
+    }
+
     .review-left-circle-position {
         left: -40px;
 
@@ -985,7 +1014,7 @@
     }
 
     .footer-menu-block-margin {
-        margin-top: 39px;
+        margin-top: 20px;
     }
 
     .footer-menu-margin {
@@ -1006,6 +1035,8 @@
     }
 
     .footer-style {
+        width: 1392px;
+        margin: 15px auto 0 auto;
         border-top: 1px solid rgb(0 0 0 / 10%);
         padding-top: 33px;
         padding-bottom: 41px;
@@ -1032,7 +1063,11 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 72px;
+        margin-top: 92px;
+    }
+
+    .valadai-wrap .valadai-text {
+        margin-top: -44px;
     }
 
     .valadai-wrap .valadai-orange-text {
@@ -1057,7 +1092,7 @@
     }
 
     .logo-wrap>.svg-pic-item {
-        margin-left: 170px;
+        margin-left: 145px;
         width: 202px;
     }
 
@@ -1069,7 +1104,15 @@
         margin: 0;
     }
 
+    .env-text {
+        color: white;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
     .logo-wrap {
+        margin-top: 91px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1080,7 +1123,7 @@
         padding-left: 34px;
         padding-top: 33px;
         padding-bottom: 42px;
-        margin-top: 127px;
+        margin-top: 110px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05), 0px 0.1px 0.3px rgba(0, 0, 0, 0.014), 0px 0.3px 0.8px rgba(0, 0, 0, 0.02), 0px 0.5px 1.5px rgba(0, 0, 0, 0.025), 0px 0.9px 2.7px rgba(0, 0, 0, 0.03), 0px 1.7px 5px rgba(0, 0, 0, 0.036);
         width: 368px;
         height: 288px;
@@ -1144,14 +1187,14 @@
 
     .path-svg-block {
         position: absolute;
-        top: 107px;
+        top: 81px;
         right: 588px;
     }
 
     .path-svg-block .eclipse-pos-1 {
         position: relative;
-        top: 45px;
-        right: 30px;
+        top: 54px;
+        right: 29px;
         z-index: 1;
     }
 
